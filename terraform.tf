@@ -1,13 +1,13 @@
 terraform {
-
-  cloud {
-    organization = "organization-name"
-
-    workspaces {
-      name = "learn-terraform-cloud"
-    }
-  }
-
+#
+#  cloud {
+#    organization = "omon-org"
+#
+#    workspaces {
+#      name = "learn-terraform-cloud"
+#    }
+#  }
+#
   required_providers {
     aws = {
       source  = "hashicorp/aws"
